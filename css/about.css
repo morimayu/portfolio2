@@ -71,7 +71,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(images/Marble08-2.jpg);
+  background-image: url(../images/Marble08-2.jpg);
   background-repeat: no-repeat;
   text-align: center;
   width: 40%;
@@ -144,7 +144,7 @@ a {
 }
 
 footer {
-  background-image: url(images/footer08-2.jpg);
+  background-image: url(../images/footer08-2.jpg);
   min-height: 20vh;
   background-size: cover;
 }
