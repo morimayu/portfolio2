@@ -53,7 +53,7 @@ a {
   /*トップ画像全画面表示*/
 }
 .headerTop__img {
-  background-image: url(/images/top-1920-1080non.jpg);
+  background-image: url(images/top-1920-1080non.jpg);
   min-height: 100vh;
   background-size: cover;
   background-position: center top;
@@ -315,7 +315,7 @@ scroll span {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(/images/Marble07.jpg);
+  background-image: url(images/Marble07.jpg);
   background-repeat: no-repeat;
   text-align: center;
   width: 30%;
@@ -331,7 +331,7 @@ scroll span {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(/images/Marble09-h.jpg);
+  background-image: url(images/Marble09-h.jpg);
   background-repeat: no-repeat;
   text-align: center;
   width: 30%;
@@ -357,7 +357,7 @@ scroll span {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(/images/Marble08.jpg);
+  background-image: url(images/Marble08.jpg);
   background-repeat: no-repeat;
   text-align: center;
   width: 30%;
@@ -385,7 +385,7 @@ scroll span {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(/images/Marble08-2.jpg);
+  background-image: url(images/Marble08-2.jpg);
   background-repeat: no-repeat;
   text-align: center;
   width: 30%;
@@ -714,7 +714,7 @@ input[type=submit] {
 }
 
 footer {
-  background-image: url(../images/footer08-2.jpg);
+  background-image: url(images/footer08-2.jpg);
   min-height: 20vh;
   background-size: cover;
 }
