@@ -42,7 +42,7 @@ a {
 }
 
 .wrapper {
-  max-width: 1200px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -94,14 +94,14 @@ a {
   }
 }
 
-scroll {
+.scroll {
   position: absolute;
   bottom: 5rem;
   right: 100%;
   width: 2em;
   height: 2em;
 }
-scroll span {
+.scroll span {
   width: 3em;
   height: 3em;
   position: absolute;
@@ -187,7 +187,6 @@ scroll span {
 .gnav__item {
   font-size: 2rem;
   color: #707070;
-  padding: 1vw;
 }
 
 #gnavi-link.fixed {
@@ -307,7 +306,7 @@ scroll span {
   }
 }
 /*h2画像*/
-.h2Img {
+.h2Img__work {
   margin: 6% 0 6% 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -321,6 +320,19 @@ scroll span {
   width: 30%;
   color: #fcfcfc;
   text-shadow: 1px 1px 0 #707070, -1px -1px 0 #707070, -1px 1px 0 #707070, 1px -1px 0 #707070, 0px 1px 0 #707070, -1px 0 #707070, -1px 0 0 #707070, 1px 0 0 #707070;
+}
+@media (max-width: 768px) {
+  .h2Img__work {
+    margin: 10% auto 10% auto;
+  }
+}
+@media (max-width: 500px) {
+  .h2Img__work {
+    width: 40%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    width: 50%;
+  }
 }
 
 .h2Img__skill {
@@ -346,6 +358,9 @@ scroll span {
 @media (max-width: 500px) {
   .h2Img__skill {
     width: 40%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    width: 50%;
   }
 }
 
